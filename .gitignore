@@ -1,14 +1,7 @@
-@"
-# Ignore everything
-*
-
-# Allow the four root files
+﻿*
 !Code_S1_GIS_Inventory.py
 !Table_S1_Feature_Metadata.csv
 !README.md
 !.gitignore
-
-# Allow the data folder and everything inside it
 !data/
 !data/**
-"@ | Out-File -FilePath .gitignore -Encoding utf8
